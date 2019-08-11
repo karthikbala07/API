@@ -3,11 +3,11 @@ app = Flask(__name__)
 
 languages = "Hello"
 
-@app.route('/lang', methods=['GET'])
+@app.route('/', methods=['GET'])
 def returnAll():
 	return "Hello Gamer"
 
-@app.route('/lang', methods=['POST'])
+@app.route('/', methods=['POST'])
 def addOne():
 	language = request.json['name']
 	

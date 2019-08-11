@@ -5,7 +5,7 @@ languages = "Hello"
 
 @app.route('/', methods=['GET'])
 def returnAll():
-	return "Hello Gamer"
+	return "Hello GuruJi"
 
 @app.route('/', methods=['POST'])
 def addOne():
